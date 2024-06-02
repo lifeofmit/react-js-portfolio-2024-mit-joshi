@@ -102,19 +102,19 @@ function Projects() {
         />
         <ProjectCard
           src={creativePort}
-          link="https://github.com/lifeofmit/react-job-portal"
+          link="https://github.com/lifeofmit/portfolio-2024-mit-joshi"
           h3="Practice Project 3"
           p="Creative Portfolio"
         />
         <ProjectCard
           src={creativePort2}
-          link="https://github.com/lifeofmit/react-job-portal"
+          link="https://github.com/lifeofmit/02-portfolio-mit-joshi-2024"
           h3="Practice Project 4"
           p="Three JS Portfolio"
         />
         <ProjectCard
           src={eyeballs}
-          link="https://github.com/lifeofmit/react-job-portal"
+          link="https://github.com/lifeofmit/eyeball"
           h3="Practice Project 5"
           p="Magnetic Eyeballs"
         />
