@@ -1,0 +1,9 @@
+.container {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    p {
+        width: 300px;
+    }
+
+}

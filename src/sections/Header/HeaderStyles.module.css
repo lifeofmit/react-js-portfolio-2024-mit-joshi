@@ -1,0 +1,64 @@
+.container {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+
+    a {
+        text-decoration: none;
+    }
+
+    .topHeader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 0;
+        background-color: var(--background-color);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.493);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .topNavbar a {
+        position: relative;
+        color: var(--text-color);
+        font-weight: 200;
+    }
+
+    .topNavbar a:not(:first-child) {
+        margin-left: 30px;
+    }
+
+    .topNavbar a::before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: gray;
+        transition: 0.3s;
+    }
+
+    .topNavbar a:hover::before {
+        width: 100%;
+    }
+
+}
+
+@media (width >=800px) {
+    .container {
+        .topNavbar a:not(:first-child) {
+            margin-left: 150px;
+        }
+    }
+}
+
+@media (width >=1400px) {
+    .container {
+        .topNavbar a:not(:first-child) {
+            margin-left: 200px;
+        }
+    }
+}
