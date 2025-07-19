@@ -37,7 +37,7 @@ function Hero() {
           <br />
           Joshi
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>UI UX Designer</h2>
         <span>
           <a href="https://github.com/lifeofmit" target="_blank">
             <img src={githubIcon} alt="Github icon" />
@@ -47,8 +47,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          Passionate about crafting modern, user-centric web experiences for commercial businesses.
         </p>
         <a href={mitCV} download>
           <button className="hover">Resume</button>
