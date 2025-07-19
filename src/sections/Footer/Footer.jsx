@@ -4,7 +4,7 @@ function Footer() {
   return (
     <section id="footer" className={styles.container}>
       <p>
-        &copy; 2024 Mit Joshi. <br />
+        &copy; 2025 Mit Joshi. <br />
         All rights reserved.
       </p>
     </section>
