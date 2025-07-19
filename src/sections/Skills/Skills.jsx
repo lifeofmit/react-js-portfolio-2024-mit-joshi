@@ -11,7 +11,7 @@ function Skills() {
   return (
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
-      <div className={styles.skillList}>
+      {/* <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="JavaScript" />
         <SkillList src={checkMarkIcon} skill="React JS" />
         <SkillList src={checkMarkIcon} skill="Redux" />
@@ -23,36 +23,35 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="GSAP" />
         <SkillList src={checkMarkIcon} skill="ScrollTrigger" />
       </div>
-      <hr />
+      <hr /> */}
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="HTML" />
         <SkillList src={checkMarkIcon} skill="CSS" />
-        <SkillList src={checkMarkIcon} skill="Sass, SCSS, and Less" />
+        <SkillList src={checkMarkIcon} skill="SCSS" />
         <SkillList src={checkMarkIcon} skill="HTML DOM" />
         <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
-        <SkillList src={checkMarkIcon} skill="Bootstrap" />
-        <SkillList src={checkMarkIcon} skill="Webpack" />
-        <SkillList src={checkMarkIcon} skill="PSD to HTML" />
+        <SkillList src={checkMarkIcon} skill="Bootstrap 5" />
+        <SkillList src={checkMarkIcon} skill="Figma" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Next JS" />
-        <SkillList src={checkMarkIcon} skill="JSON" />
-        <SkillList src={checkMarkIcon} skill="REST api" />
+        <SkillList src={checkMarkIcon} skill="Photoshop" />
+        <SkillList src={checkMarkIcon} skill="Illustrator" />
+        <SkillList src={checkMarkIcon} skill="After Effects" />
         <SkillList src={checkMarkIcon} skill="Wordpress" />
         <SkillList src={checkMarkIcon} skill="Git & GitHub" />
-        <SkillList src={checkMarkIcon} skill="TortoiseSVN" />
+        <SkillList src={checkMarkIcon} skill="Vite" />
         <SkillList src={checkMarkIcon} skill="NPM, Yarn" />
         <SkillList src={checkMarkIcon} skill="Zoho Connect" />
         <SkillList src={checkMarkIcon} skill="Vercel & Netlify" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Premier Pro" />
-        <SkillList src={checkMarkIcon} skill="After Effects" />
-        <SkillList src={checkMarkIcon} skill="Illustrator" />
+        <SkillList src={checkMarkIcon} skill="CorelDraw" />
+        {/* <SkillList src={checkMarkIcon} skill="After Effects" /> */}
+        {/* <SkillList src={checkMarkIcon} skill="Illustrator" /> */}
         <SkillList src={checkMarkIcon} skill="ProCreate" />
-        <SkillList src={checkMarkIcon} skill="Photoshop" />
+        {/* <SkillList src={checkMarkIcon} skill="Photoshop" /> */}
       </div>
     </section>
   );
