@@ -110,13 +110,13 @@ p {
 .cursor-dot {
   width: 7px;
   height: 7px;
-  background-color: rgb(0, 0, 0);
+  background-color: #ff4a17;
 }
 
 .cursor-outline {
   width: 40px;
   height: 40px;
-  border: 2px solid hsla(0, 0%, 38%, 0.5);
+  border: 2px solid #ff49178f;
 }
 
 .cursor-dot,
